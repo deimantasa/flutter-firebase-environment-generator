@@ -30,7 +30,8 @@ function generateRightFirebaseEnvironmentFile(environment: Environment) {
     console.log(`*********************************************`);
     console.log(`Generating firebase environment files. Environment: ${environment}`);
 
-    //Defining paths. Given `firebase-environment.ts` is stored in `../projectName/tools/firebase-environment`
+    //Defining paths.
+    //Given `firebase-environment-generator.ts` is stored in `../projectName/tools/firebase-environment-generator`
     const androidPath = path.join(__dirname, '..', '..', 'android', 'app');
     const iosPath = path.join(__dirname, '..', '..', 'ios', 'Runner');
 
